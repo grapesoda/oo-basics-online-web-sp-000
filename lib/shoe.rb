@@ -10,6 +10,7 @@ class Shoe
   end
   
   def cobble(condition = "C")
+    put "C"
     @condition = "new"
     Shoe.condition = "new"
   end
