@@ -9,10 +9,10 @@ class Shoe
     @brand = brand
   end
   
-  def cobble(condition = "C")
-    put "C"
+  def cobble(condition = "old")
+    puts "C"
     @condition = "new"
-    Shoe.condition = "new"
+    
   end
   
   
