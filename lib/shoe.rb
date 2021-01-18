@@ -11,7 +11,7 @@ class Shoe
   
   def cobble
     puts "C"
-<<<<<<< HEAD
+
     @condition = "new"
 
     Shoe.condition = "new"
