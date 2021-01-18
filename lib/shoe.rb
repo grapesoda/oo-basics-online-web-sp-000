@@ -12,7 +12,6 @@ class Shoe
   def cobble(condition = "old")
     puts "C"
     @condition = "new"
-    
   end
   
   
